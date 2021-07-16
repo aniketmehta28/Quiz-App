@@ -1,0 +1,80 @@
+:root {
+    background: linear-gradient(to bottom right, #9fd8df,#a3d2ca,#8bcdcd,#78c4d4,#5eaaa8);
+}
+
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+
+
+h1 {
+  font-size: 5rem;
+  color: #fecd1a;
+  margin-bottom: 5%;
+}
+
+.hi {
+  text-align: center;
+  font-weight: bold;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container>* {
+  width: 100%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+/* BUTTONS */
+.btn {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 20rem;
+  text-align: center;
+  border: 0.1rem solid #ffc85c;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffda77;
+}
+
+.btn:hover {
+  background-color: #fecd1a;
+}

@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(to bottom right, #9fd8df,#a3d2ca,#8bcdcd,#78c4d4,#5eaaa8);
+  font-family: 'Roboto', sans-serif;
+}
+
+#question{
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+}
+
+.section {
+  background-color: #ffda77;
+  text-align: center;
+  padding: 2% 3%;
+  font-family: 'Roboto', sans-serif;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.option-box {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  background: linear-gradient(to bottom right, #9fd8df,#a3d2ca,#8bcdcd,#78c4d4,#5eaaa8);
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-bottom: 1%;
+}
+
+.option-prefix {
+  background-color: #ffc85c;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+
+
+.choice-text{
+  background-color: #ffda77;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.choice-text:hover {
+  background-color: #ffc85c;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
+}
+
+#hud{
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.hud-prefix {
+  font-size: 2rem;
+  text-align:center;
+  font-weight: bold;
+  margin-left: 10%;
+}
+
+.hud-main-text {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align:center;
+}
+
+#progressBar {
+  width: 100%;
+  height: 2rem;
+  border: 0.3rem solid #ffc85c;
+  padding: .5% .5%;
+  margin-left: 25%;
+}
+
+#progressBarFull {
+  height: 2rem;
+  background-color: #ffda77;
+  width: 0%;
+}
+.foot{
+  text-align: center;
+  padding: 2% 3%;
+  font-weight: bold;
+}
